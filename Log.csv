@@ -1,0 +1,8 @@
+"(PDH-CSV 4.0) (Iran Daylight Time)(-270)","\\AWX574118\Memory\Available MBytes","\\AWX574118\Memory\Cache Faults/sec","\\AWX574118\Network Interface(Intel[R] Ethernet Connection I219-LM)\Bytes Sent/sec","\\AWX574118\Network Interface(Intel[R] Dual Band Wireless-AC 8260)\Bytes Sent/sec","\\AWX574118\Network Interface(Intel[R] Ethernet Connection I219-LM)\Bytes Received/sec","\\AWX574118\Network Interface(Intel[R] Dual Band Wireless-AC 8260)\Bytes Received/sec","\\AWX574118\Processor(_Total)\% Processor Time","\\AWX574118\Processor Performance(PPM_Processor_0)\% of Maximum Frequency","\\AWX574118\Processor Performance(PPM_Processor_1)\% of Maximum Frequency","\\AWX574118\Processor Performance(PPM_Processor_2)\% of Maximum Frequency","\\AWX574118\Processor Performance(PPM_Processor_3)\% of Maximum Frequency"
+"07/09/2019 13:45:01.706","11082"," "," "," "," "," "," ","29","29","29","29"
+"07/09/2019 13:45:11.699","11080","16.71601200320973","0","451.03203644588655","0","1162.7137450855344","8.9890462833084115","14","14","14","14"
+"07/09/2019 13:45:21.736","11035","4667.6009004264688","0","335.96177103641065","0","441.65536418435067","17.470437706949006","29","29","29","29"
+"07/09/2019 13:45:31.729","10985","142.49678557908803","0","568.48612280533644","0","1594.2828566334483","29.245921184683066","14","14","14","14"
+"07/09/2019 13:45:41.706","11016","11.598070156076549","0","146.17567731193031","0","240.06005555810168","7.4712268610512496","14","14","14","14"
+"07/09/2019 13:45:51.701","11016","25.713273452773389","0","424.71924438530363","0","1195.0168798440675","22.937953930308218","29","29","29","29"
+"07/09/2019 13:46:01.701","11013","13.301472123991678","0","214.92378642449711","0","328.7363824929372","11.858746616811079","14","14","14","14"
