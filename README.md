@@ -2,6 +2,7 @@
 
 This repo is the result of my curiosity about making a fully customized monitoring system, based on the real preference and requirements of users.
 the project separated into two major sections: monitoring tools for Windows and Linux operating systems.
+![Demonstration](https://github.com/AFZL95/Homemade_TaskManager/blob/master/demonstration.gif)
 
 ## Architecture and pre-requisitions
 In below you can see the procedure and data flow of the project.
