@@ -1,0 +1,6 @@
+dash==1.0.0
+memory_profiler==0.55.0
+Flask_Caching==1.7.2
+dash_html_components==1.0.0
+pandas==0.23.4
+dash_core_components==1.0.0
