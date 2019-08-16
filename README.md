@@ -1,7 +1,7 @@
 # Homemade Task Manager
 
 This repo is the result of my curiosity about making a fully customized monitoring system, based on the real preference and requirements of users.
-And it was a great experience being skillful in great visualizationing tool of python called [Dash](https://plot.ly/dash).
+And it was a great experience being skillful in a great visualizationing tool of python called [Dash](https://plot.ly/dash).
 
 
 ![Demonstration](https://github.com/AFZL95/Homemade_TaskManager/blob/master/demonstration.gif)
@@ -16,7 +16,7 @@ in the picture below, you can see the procedure of creating neat monitoring figu
 
 Requirements | Details
 ------------ | -------------
-Python | Anaconda is preferable
+Python | Anaconda runtime is preferable
 Used Libraries |  satisfiable with `requirements.txt`. 
 Winrm | run `winrm quickconfig` command in your PowerShell to check the stuff
 Redis | configurable  with [this](https://redis.io/) link.
