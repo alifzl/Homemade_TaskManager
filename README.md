@@ -2,7 +2,8 @@
 
 This repo is the result of my curiosity about making a fully customized monitoring system, based on the real preference and requirements of users.
 And it was a great experience being skillful in great visualizationing tool of python called [Dash](https://plot.ly/dash).
-the project separated into two major sections: monitoring tools for Windows and Linux operating systems.
+
+
 ![Demonstration](https://github.com/AFZL95/Homemade_TaskManager/blob/master/demonstration.gif)
 
 ## Architecture and pre-requisitions
