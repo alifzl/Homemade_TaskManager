@@ -36,7 +36,7 @@ cache = Cache(app.server, config={
 # })
 
 # refresh duration new data
-TIMEOUT = 60
+TIMEOUT = 5
 
 
 @cache.memoize(timeout=TIMEOUT)
@@ -47,9 +47,9 @@ def query_data():
     '''
 
     col = ['Time', 'Memory Avalable Space (MB)', 'Memory Cache Faults',
-           'Eth0 Bytes (Send/Sec)', 'Wireless Bytes (Send/Sec)', 'Eth0 Bytes (Recieved/Sec)',
-           'Wireless Bytes (Recieved/Sec)', 'Processor Time',
-           'P0_Maximum Frequency(%)', 'P1_Maximum Frequency(%)', 'P2_Maximum Frequency(%)', 'P3_Maximum Frequency(%)']
+           'Wireless Bytes (Send/Sec)', 'Wireless Bytes (Recieved/Sec)', 'Processor Time',
+           'P0_Maximum Frequency(%)', 'P1_Maximum Frequency(%)', 'P2_Maximum Frequency(%)', 'P3_Maximum Frequency(%)'
+           , 'P4_Maximum Frequency(%)', 'P5_Maximum Frequency(%)', 'P6_Maximum Frequency(%)', 'P7_Maximum Frequency(%)']
     # This could be an expensive data querying step
     df = pd.read_csv("Log.csv")
     df.columns = col
@@ -75,7 +75,7 @@ app.layout = html.Div([
 
 Source code of this Visualization can be found [here](https://github.com/AFZL95/Homemade_TaskManager).
 '''),
-    html.Div('Data was updated within the last {} seconds'.format(TIMEOUT)),
+    html.Div('Data updates within the last {} seconds'.format(TIMEOUT)),
     dcc.Dropdown(
         id='live-dropdown',
         value='Time',
